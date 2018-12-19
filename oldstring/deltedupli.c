@@ -1,6 +1,5 @@
-#include<stdio.h>
-#include<string.h>
-#include<stdlib.h>
+#include"header.h"
+
 FILE *fp,*fp2,*fp3;
 int count=0;
 char fname[100];
@@ -74,7 +73,7 @@ void openfile(){
                      }*/
              }
     }
-    removeword(ptr);
+    //removeword(ptr);
   }
   fclose(fp2);
 }
